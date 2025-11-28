@@ -6,7 +6,7 @@ require (
 	github.com/getlantern/systray v1.2.2
 	github.com/ncruces/zenity v0.10.14
 	github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07
-	github.com/z-sk1/arduino v0.0.0-20251125171733-b647fca6a31c
+	github.com/z-sk1/arduino-comm v0.0.0-20251128140224-3929c8d36bce
 )
 
 require (
@@ -23,5 +23,5 @@ require (
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
 	github.com/randall77/makefat v0.0.0-20210315173500-7ddd0e42c844 // indirect
 	golang.org/x/image v0.20.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 )

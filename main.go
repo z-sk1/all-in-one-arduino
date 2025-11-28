@@ -8,10 +8,10 @@ import (
 
 	"github.com/ncruces/zenity"
 	"github.com/tarm/serial"
-	"github.com/z-sk1/arduino"
+	arduinocomm "github.com/z-sk1/arduino-comm"
 )
 
-var Device *arduino.Device
+var Device *arduinocomm.Device
 
 func main() {
 	portName := askForPort()
@@ -36,7 +36,7 @@ func openPort(comPort string) {
 		log.Fatal(err)
 	}
 
-	Device = arduino.New(port)
+	Device = arduinocomm.New(port)
 }
 
 func readSerialLoop() {
